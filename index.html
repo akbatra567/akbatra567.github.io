@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
         <!-- Bulma-Social -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <!-- Main.js -->
+        <script defer src="includes/js/main.js"></script>
     </head>
     <body>
 
@@ -32,11 +35,8 @@
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">More</a>
                 <div class="navbar-dropdown">
-                    <a class="navbar-item">About</a>
-                    <a class="navbar-item">Jobs</a>
-                    <a class="navbar-item">Contact</a>
-                    <hr class="navbar-divider">
-                    <a class="navbar-item">Report an issue</a>
+                    <a class="navbar-item" href="#about">About</a>
+                    <a class="navbar-item" href="#onpointwriter">On Point Writer</a>
                 </div>
             </div>
             </div>
@@ -53,7 +53,7 @@
         </div>
         </nav>
 
-        <section class="hero is-medium is-bold" style="background:#FAF8E0; color:#E5703C;">
+        <section id="about" class="hero is-medium is-bold" style="background:#FAF8E0; color:#E5703C;">
             <div class="hero-body">
               <div class="container">
                 <h1 class="title">
@@ -70,7 +70,7 @@
         </section>
 
 
-        <section class="hero is-bold">
+        <section class="hero is-bold" id="onpointwriter">
             <div class="hero-body container content column has-text-centered is-half">
                 <h3 style="margin-top:10px;">On.Point.Writer</h3>
                 <p class="content">The Passion for writing didn't just begin with the podcast, it's been there for years and will grow even more in the future. The journey of the writing begins with small phrases and paragraphs. </p>
@@ -106,7 +106,7 @@
                     <!-- Featured Podcast -->
                     <div class="box column is-half is-offset-one-quarter  has-text-centered" id="podcast">
                         <h1 class="subtitle">Featured Podcast</h1>
-                        <iframe src="https://anchor.fm/on.point.writer/embed" height="120px" width="400px" frameborder="0" scrolling="no"></iframe>
+                        <iframe src="https://anchor.fm/on.point.writer/embed" frameborder="0" scrolling="no"></iframe>
                     </div>       
                 </div>
               </div>
